@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gelir-Gider Takibi</title>
+</head>
+<body>
+    <h2>Gelir-Gider Takibi</h2>
+
+    <div class="container">
+      
+        <h4>Bakiyen</h4>
+        <h1 id="balance">₺0.00</h1>
+
+        <div class="inc-exp-container">
+           <div>
+              
+            <h4>Gelir</h4>
+            
+            <p id="money-plus" class="money plus">+₺0.00</p>
+
+
+           </div> 
+        
+
+           <div>
+              
+            <h4>Gider</h4>
+            
+            <p id="money-minus" class="money minus">-₺0.00</p>
+
+
+           </div>   
+        </div>          
+                
+           <h3>Geçmiş</h3>
+
+           <ul id="list" class="list">
+            <li class="minus">Nakit <span>-₺400</span><button class="delete-btn">x</button></li>
+           </ul>
+           
+           <h3>Yeni İşlem Ekleyiniz</h3>
+
+           <form id="form">
+             <div class="form-control">
+              <label for="text"></label>
+              <input type="text" id="text" placeholder="Lütfen Giriniz..">
+             </div>
+       
+        <div class="form-control">
+           
+            <label for="amount"><h5><br>Gelir-Gider Giriniz(gider yazarken başına - koyun)</h5></label>
+
+            <input type="text" id="amount" placeholder="Tutar giriniz..">
+       
+
+        </div>
+
+           <button class="btn" id="btn">Yeni İşlem Ekleyiniz</button>
+
+           </form>
+
+
+        
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
